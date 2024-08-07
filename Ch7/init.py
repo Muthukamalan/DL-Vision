@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 from torchvision import datasets, transforms
-from torchsummary import summary
+from torchinfo import summary
 from tqdm import tqdm
 import albumentations as A
 from albumentations.pytorch import ToTensorV2

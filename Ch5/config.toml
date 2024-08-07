@@ -1,6 +1,6 @@
 batch_size = 128
 shuffle    = true 
-num_workers= 2
+num_workers= 4
 pin_memory = true
 
 [optimizer]

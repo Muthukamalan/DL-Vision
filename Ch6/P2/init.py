@@ -13,7 +13,7 @@ from torchvision.transforms import ToTensor
 
 import toml
 
-from torchsummary import summary
+from torchinfo import summary
 
 from tqdm import tqdm
 

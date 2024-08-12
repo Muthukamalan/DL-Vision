@@ -20,7 +20,7 @@ custom_augmentation = A.Compose([
     # A.HorizontalFlip(p=0.2),
     A.ShiftScaleRotate(rotate_limit=7,p=0.5),
     A.CoarseDropout(max_holes = 1, max_height=10, max_width=10, min_holes = 1, min_height=8,min_width=8, fill_value=(0.13065974414348602),p=0.4),
-    A.geometric.transforms.ElasticTransform(alpha=0,sigma=1,p=1,alpha_affine=2,interpolation=1),
+    # A.geometric.transforms.ElasticTransform(alpha=0,sigma=1,p=1,alpha_affine=2,interpolation=1),
     A.Normalize((0.1307,), (0.3081,)),
     ToTensorV2(),
 ])
